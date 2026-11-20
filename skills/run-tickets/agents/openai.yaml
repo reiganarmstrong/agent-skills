@@ -1,0 +1,6 @@
+interface:
+  display_name: "Run Tickets"
+  short_description: "Implement ready tickets from a spec or parent issue"
+  default_prompt: "Use $run-tickets on this spec or parent issue and work through its ready tickets."
+policy:
+  allow_implicit_invocation: false
