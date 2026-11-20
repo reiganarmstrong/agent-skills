@@ -1,6 +1,6 @@
 ---
 name: unslop
-description: Cut AI tells from any writing. Always apply.
+description: Cut AI tells from writing and add human voice. Only use when explicitly requested by the user (e.g., "unslop" or /unslop).
 ---
 
 # Unslop
