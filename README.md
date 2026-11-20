@@ -33,17 +33,7 @@ New agents need their own discovery path connected to the shared directory. The 
 
 Restart a T3 agent session if its skill list has not refreshed after a change. Existing conversations can retain previously loaded skill instructions.
 
-## Consolidated versions
-
-The initial reorganization consolidated 19 identical skill pairs and shared five portable skills that previously existed for only one agent, plus the two skills already in the shared directory. No skill contents changed.
-
-The ten differing pairs were subsequently consolidated using the Codex copies, as requested. All 36 custom skills now live in the shared directory. The [historical differences report](skill-differences.md) records the replaced Claude versions; no differences remain unresolved.
-
 Codex's `.system` skills, plugin-managed skills, and Claude's `synced` skills remain managed by their original tools.
-
-## Backup
-
-The original custom skill directories and their content hashes are saved in `~/.agents/skill-backups/20261105T165037Z/`. The archive preserves the original paths. A restore needs to remove the new shared links and relocated skill folders before extracting those original paths.
 
 ## Discovery documentation
 
