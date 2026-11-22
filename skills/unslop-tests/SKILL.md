@@ -137,3 +137,19 @@ Provide a compact summary with:
 6. **Prevention:** one short repository-agnostic rule suitable for future TDD agents, based on the actual redundancy found (for example, "Before adding a permanent test, identify which distinct externally observable failure it catches that existing tests would miss").
 
 Do not overstate test quality from deletion counts or coverage alone. The correct result may be a modest reduction if the existing suite already protects distinct behaviors.
+
+---
+
+## Attribution and license
+
+This standalone adaptation is informed by Matthew Blode's `test-audit` skill in `mblode/agent-skills`, which credits OpenClaw's `test-audit`. It consolidates the original skill's audit, campaign, and coverage guidance into one file and changes the default from quota-driven pruning to evidence-driven maintenance. The original repository is MIT licensed. The following notice is included for attribution and license compliance; it is **not** an operational dependency.
+
+MIT License
+
+Copyright (c) 2026 Matthew Blode
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
