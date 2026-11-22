@@ -77,5 +77,6 @@ Pass `--headless` (instead of the default `--connect 127.0.0.1:7981`) or `--conn
 
 1. **Inspect first:** Call `list_documents` and `inspect_document` before editing an open file so you know its current content and active document ID.
 2. **Batch edits:** Group related commands into a single `--batch` call (or use WordCraft's `batch` tool) to minimize round-trips.
-3. **Verify:** Call `inspect_document` (or `render_page` for layout-sensitive changes) after editing to confirm the result.
-4. **Save cautiously:** When editing an open file in the live app, do not overwrite the file on disk with `save_document` unless the user asks to save—leaving changes unsaved in the live window lets the user review or undo easily.
+3. **Use standard fonts:** WordCraft is an incomplete Word clone and does not support all fonts. Stick to standard, widely supported fonts (e.g., Times New Roman, Arial, Helvetica, Georgia, Calibri, Courier New) rather than specialty or uncommon typefaces unless the user explicitly asks for one.
+4. **Verify:** Call `inspect_document` (or `render_page` for layout-sensitive changes) after editing to confirm the result.
+5. **Save cautiously:** When editing an open file in the live app, do not overwrite the file on disk with `save_document` unless the user asks to save—leaving changes unsaved in the live window lets the user review or undo easily.
